@@ -1,7 +1,7 @@
 import math as m
 import pandas as pd
 
-scenarios = [1500, 2500, 3000]
+scenarios = [1000, 1500, 2000, 2500, 3000]
 fee = 50
 results = []
 
@@ -23,7 +23,7 @@ def calculating(x0, y0, p_new, fee=0):
         "y_new": round(y_new, 2),
         "v_lp": round(v_lp, 2),
         "v_hold": round(v_hold, 2),
-        "il_pct": round(il_perc, 2),
+        "il_perc": round(il_perc, 2),
         "pnl": round(pnl, 2),
     }
 
