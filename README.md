@@ -17,7 +17,7 @@ To find **Impermanent Loss** we need to go through 5 steps:
 
 #### Step 1: Define Initial State
 * Initial quantities: x₀, y₀
-* Initial price ratio:$p₀ = x₀/y₀$
+* Initial price ratio: p₀ = x₀/y₀
 * Invariant: $k = x₀ \cdot y₀$
 
 #### Step 2: After Price Change
