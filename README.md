@@ -55,9 +55,9 @@ earned 50 USDC in fees**:
 ![image](screenshots/charts.png)
 
 If you look at the charts, you can notice that impermanent loss (IL) isn’t really symmetric. In practice, when the price drops,
-the loss tends to be more noticeable than when it rises by a similar amount.
+the loss tends to be more noticeable than when the price rises by a similar amount.
 
-This mostly comes down to how price ratios work — they’re not linear. For example, a move from 2000 to 1000 is basically a 2x change,
+This mostly comes down to how price ratios work — they’re not linear. For example, a move from 2000 to 1000 is exactly a 2x change,
 while going from 2000 to 3000 is only about 1.5x. So even if the absolute difference looks similar, the effect on IL is quite different.
 
 At the same time, when price movements are small, IL is almost negligible and stays close to zero.
